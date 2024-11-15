@@ -1,5 +1,5 @@
-CMakeFiles/tema2.dir/src/main.cpp.o: \
- /home/iuli25/PAOO/Tema2_PAOO/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/tema2.dir/src/Book.cpp.o: \
+ /home/iuli25/PAOO/Tema2_PAOO/src/Book.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -144,8 +144,4 @@ CMakeFiles/tema2.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/iuli25/PAOO/Tema2_PAOO/src/../inc/Book.hpp \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc
+ /home/iuli25/PAOO/Tema2_PAOO/src/../inc/Book.hpp

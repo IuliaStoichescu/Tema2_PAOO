@@ -129,6 +129,30 @@ tema2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema2.dir/build.make CMakeFiles/tema2.dir/build
 .PHONY : tema2/fast
 
+src/Book.o: src/Book.cpp.o
+.PHONY : src/Book.o
+
+# target to build an object file
+src/Book.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema2.dir/build.make CMakeFiles/tema2.dir/src/Book.cpp.o
+.PHONY : src/Book.cpp.o
+
+src/Book.i: src/Book.cpp.i
+.PHONY : src/Book.i
+
+# target to preprocess a source file
+src/Book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema2.dir/build.make CMakeFiles/tema2.dir/src/Book.cpp.i
+.PHONY : src/Book.cpp.i
+
+src/Book.s: src/Book.cpp.s
+.PHONY : src/Book.s
+
+# target to generate assembly for a file
+src/Book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema2.dir/build.make CMakeFiles/tema2.dir/src/Book.cpp.s
+.PHONY : src/Book.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tema2"
+	@echo "... src/Book.o"
+	@echo "... src/Book.i"
+	@echo "... src/Book.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
