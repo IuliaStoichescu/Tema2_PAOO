@@ -18,7 +18,13 @@ void Book::display()const
     std::cout << "Title: "<<title << ", Pages: " << nrPages<< ", Color: " << color << ", Author: " << author << std::endl;
 }
 
-// Constructor de copiere
+// Destructor
+Book::~Book() {
+    std::cout << "Destructor called for: " << title << std::endl;
+}
+//se va apela la sfarsitul programului
+
+/*// Constructor de copiere
 Book::Book(const Book& other)
     : title(other.title), nrPages(other.nrPages), color(other.color), author(other.author) {
     std::cout << "Copy Constructor called for: " << title << std::endl;
@@ -29,12 +35,6 @@ Book::Book(Book&& other) noexcept
     : title(std::move(other.title)), nrPages(other.nrPages), color(std::move(other.color)), author(std::move(other.author)) {
     std::cout << "Move Constructor called for: " << title << std::endl;
 }
-
-// Destructor
-Book::~Book() {
-    std::cout << "Destructor called for: " << title << std::endl;
-}
-//se va apela la sfarsitul programului
 
 // Operator de copiere
 Book& Book::operator=(const Book& other) {
@@ -58,6 +58,6 @@ Book& Book::operator=(Book&& other) noexcept {
         std::cout << "Move Assignment Operator called for: " << title << std::endl;
     }
     return *this;
-}
+}*/
 
 //indiferent daca sunt construite functiile sau nu ele exista in momentul in care construim o clasa

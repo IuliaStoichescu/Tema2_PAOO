@@ -12,11 +12,11 @@ class Book
     
     public: 
         Book(const std::string& title,int nrPages,const std::string& color,const std::string& author);
-        Book(const Book& other);//copy constructor
-        Book(Book&& other) noexcept;//move constructor
+        Book(const Book& other) ;//copy constructor
+        Book(Book&& other) noexcept = delete;//move constructor
         ~Book();
-        Book& operator=(const Book& other);//copy assign operator
-        Book& operator=(Book&& other) noexcept;//move assign operator
+        Book& operator=(const Book& other) = delete;//copy assign operator
+        Book& operator=(Book&& other) noexcept = delete;//move assign operator
         void display()const;
 };
 

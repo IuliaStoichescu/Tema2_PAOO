@@ -27,6 +27,12 @@ int main()
     std::cout<<"\nUsing move assignment operator functionality.."<<std::endl;
     book3=move(book2);
     //arata gol ca book 2 e empty
+
+
+    //Apar erori la utilizarea  move constructor copy assignemt operator si 
+    //move assignement operator
+    //Totodata demonstram si item5 , vazand ca functia de copy constructor poate fi implicita 
     
+
     return 0;
 }
