@@ -1,0 +1,3 @@
+/home/iuli25/PAOO/Tema2_PAOO/build/CMakeFiles/tema2.dir
+/home/iuli25/PAOO/Tema2_PAOO/build/CMakeFiles/edit_cache.dir
+/home/iuli25/PAOO/Tema2_PAOO/build/CMakeFiles/rebuild_cache.dir
